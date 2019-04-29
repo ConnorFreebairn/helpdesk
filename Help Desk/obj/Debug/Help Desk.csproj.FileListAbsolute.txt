@@ -8,3 +8,4 @@ C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\obj\Debug\Help Desk.csproj.G
 C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\obj\Debug\Help Desk.csproj.CoreCompileInputs.cache
 C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\obj\Debug\Help Desk.exe
 C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\obj\Debug\Help Desk.pdb
+C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\obj\Debug\Help_Desk.dashboard.resources
