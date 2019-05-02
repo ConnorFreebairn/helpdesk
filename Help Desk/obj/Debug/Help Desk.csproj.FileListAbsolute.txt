@@ -1,7 +1,6 @@
 C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\bin\Debug\Help Desk.exe.config
 C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\bin\Debug\Help Desk.exe
 C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\bin\Debug\Help Desk.pdb
-C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\obj\Debug\Help Desk.csprojAssemblyReference.cache
 C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\obj\Debug\Help_Desk.authentication.resources
 C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\obj\Debug\Help_Desk.Properties.Resources.resources
 C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\obj\Debug\Help Desk.csproj.GenerateResource.cache
@@ -9,3 +8,5 @@ C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\obj\Debug\Help Desk.csproj.C
 C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\obj\Debug\Help Desk.exe
 C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\obj\Debug\Help Desk.pdb
 C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\obj\Debug\Help_Desk.dashboard.resources
+C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\obj\Debug\Help_Desk.ticketdetails.resources
+C:\Users\Connor\Documents\GitHub\helpdesk\Help Desk\obj\Debug\Help Desk.csprojAssemblyReference.cache

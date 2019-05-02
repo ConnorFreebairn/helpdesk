@@ -33,5 +33,53 @@ namespace Help_Desk.Properties {
                 return ((string)(this["AuthenticationConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ticketid {
+            get {
+                return ((string)(this["ticketid"]));
+            }
+            set {
+                this["ticketid"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string affecteduser {
+            get {
+                return ((string)(this["affecteduser"]));
+            }
+            set {
+                this["affecteduser"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string message {
+            get {
+                return ((string)(this["message"]));
+            }
+            set {
+                this["message"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string status {
+            get {
+                return ((string)(this["status"]));
+            }
+            set {
+                this["status"] = value;
+            }
+        }
     }
 }
