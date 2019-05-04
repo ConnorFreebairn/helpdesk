@@ -23,7 +23,6 @@ namespace Help_Desk
 
         private void Usermanagment_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'authenticationDataSet1.Users' table. You can move, or remove it, as needed.
             this.usersTableAdapter.Fill(this.authenticationDataSet1.Users);
             listBox1.DataSource = GetData();
             listBox1.DisplayMember = "username";
@@ -33,7 +32,7 @@ namespace Help_Desk
         {
             dtUsers = new DataTable();
             SqlConnection conn = new SqlConnection(@"Data Source=CONNOR-PC\SQLEXPRESS;Initial Catalog=Authentication;Integrated Security=True;Pooling=False");
-            {
+            {   // Playing with stored SQL procedures here, never used them before. :D
                 using (SqlCommand cmd = new SqlCommand("usp_GetAllUsers", conn))
                 {
                     cmd.CommandType = System.Data.CommandType.StoredProcedure;
