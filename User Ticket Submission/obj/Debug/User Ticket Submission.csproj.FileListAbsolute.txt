@@ -8,3 +8,7 @@ C:\Users\Connor\Documents\GitHub\helpdesk\User Ticket Submission\obj\Debug\User 
 C:\Users\Connor\Documents\GitHub\helpdesk\User Ticket Submission\obj\Debug\User Ticket Submission.csproj.CoreCompileInputs.cache
 C:\Users\Connor\Documents\GitHub\helpdesk\User Ticket Submission\obj\Debug\User Ticket Submission.exe
 C:\Users\Connor\Documents\GitHub\helpdesk\User Ticket Submission\obj\Debug\User Ticket Submission.pdb
+C:\Users\Connor\Documents\GitHub\helpdesk\User Ticket Submission\bin\Debug\User Ticket Submission.exe.manifest
+C:\Users\Connor\Documents\GitHub\helpdesk\User Ticket Submission\bin\Debug\User Ticket Submission.application
+C:\Users\Connor\Documents\GitHub\helpdesk\User Ticket Submission\obj\Debug\User Ticket Submission.exe.manifest
+C:\Users\Connor\Documents\GitHub\helpdesk\User Ticket Submission\obj\Debug\User Ticket Submission.application

@@ -1,7 +1,7 @@
 USE [Authentication]
 GO
 
-/****** Object: Table [dbo].[Users] Script Date: 02/05/2019 10:21:41 PM ******/
+/****** Object: Table [dbo].[Users] Script Date: 04/05/2019 07:59:38 PM ******/
 SET ANSI_NULLS ON
 GO
 
