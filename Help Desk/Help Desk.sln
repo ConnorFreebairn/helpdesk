@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Help Desk", "Help Desk.csproj", "{12605D47-9B3F-4008-996C-81C6E209CFBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User Ticket Submission", "User Ticket Submission\User Ticket Submission.csproj", "{0BA3BFDD-9B0E-417E-89F6-D2722764766F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "User Ticket Submission", "..\User Ticket Submission\User Ticket Submission.csproj", "{0BA3BFDD-9B0E-417E-89F6-D2722764766F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
