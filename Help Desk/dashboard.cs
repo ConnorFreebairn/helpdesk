@@ -97,5 +97,12 @@ namespace Help_Desk
             this.Close();
             td.ShowDialog();
         }
+
+        private void UserManagmentToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            usermanagment td = new usermanagment(); //this is the change, code for redirect  
+            this.Close();
+            td.ShowDialog();
+        }
     }
 }

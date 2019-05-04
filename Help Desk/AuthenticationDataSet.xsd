@@ -35,7 +35,7 @@
               <Mapping SourceColumn="status" DataSetColumn="status" />
             </Mappings>
             <Sources>
-              <DbSource ConnectionRef="AuthenticationConnectionString (Settings)" DbObjectName="Authentication.dbo.tickets" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="all_tickets_closed" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="all_tickets_closed" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="all_tickets_closed">
+              <DbSource ConnectionRef="AuthenticationConnectionString (Settings)" DbObjectName="Authentication.dbo.tickets" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="all_tickets_closed" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="all_tickets_closed" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="all_tickets_closed">
                 <SelectCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>SELECT        ticketid, affecteduser, message, status
@@ -45,7 +45,7 @@ WHERE        (status = 'closed')</CommandText>
                   </DbCommand>
                 </SelectCommand>
               </DbSource>
-              <DbSource ConnectionRef="AuthenticationConnectionString (Settings)" DbObjectName="Authentication.dbo.tickets" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="all_tickets_open" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="all_tickets_open" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy" UserSourceName="all_tickets_open">
+              <DbSource ConnectionRef="AuthenticationConnectionString (Settings)" DbObjectName="Authentication.dbo.tickets" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="all_tickets_open" GenerateMethods="Fill" GenerateShortCommands="true" GeneratorSourceName="all_tickets_open" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetDataBy1" UserSourceName="all_tickets_open">
                 <SelectCommand>
                   <DbCommand CommandType="Text" ModifiedByUser="false">
                     <CommandText>SELECT        ticketid, affecteduser, message, status
