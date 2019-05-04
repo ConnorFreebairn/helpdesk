@@ -9,6 +9,14 @@ Expect security vulnerabilities, badly written code and inefficient functions.
 
 I think of this as my way to learn and test C# code.  :D
 
+-----------------------------------------------------------------------------------------
+
+This program requires a SQL Server (express will do)
+Create a database and run the two scripts included in the project under the DB folder.
+Once the scripts complete, edit the App.config file within each solution and edit the connection string to match your SQL DB
+
+You will also need to edit the database directly and create your first admin account under the users table.
+
 ![User Authentication](https://i.imgur.com/MI1M50A.png)
 
 ![Technician Dashboard](https://i.imgur.com/AW9wbh6.png)
