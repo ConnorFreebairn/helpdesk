@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -35,12 +36,16 @@
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.richTextBox2 = new System.Windows.Forms.RichTextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.authenticationDataSet1 = new Help_Desk.AuthenticationDataSet1();
+            this.authenticationDataSet1BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.authenticationDataSet1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.authenticationDataSet1BindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -104,13 +109,6 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Status";
             // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(634, 12);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(156, 26);
-            this.textBox3.TabIndex = 7;
-            // 
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(729, 639);
@@ -158,17 +156,38 @@
             this.label5.TabIndex = 13;
             this.label5.Text = "Work comments";
             // 
+            // authenticationDataSet1
+            // 
+            this.authenticationDataSet1.DataSetName = "AuthenticationDataSet1";
+            this.authenticationDataSet1.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // authenticationDataSet1BindingSource
+            // 
+            this.authenticationDataSet1BindingSource.DataSource = this.authenticationDataSet1;
+            this.authenticationDataSet1BindingSource.Position = 0;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "open",
+            "closed"});
+            this.comboBox1.Location = new System.Drawing.Point(634, 12);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(156, 28);
+            this.comboBox1.TabIndex = 14;
+            // 
             // ticketdetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(802, 691);
+            this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.richTextBox2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.richTextBox1);
@@ -181,6 +200,8 @@
             this.Name = "ticketdetails";
             this.Text = "ticketdetails";
             this.Load += new System.EventHandler(this.Ticketdetails_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.authenticationDataSet1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.authenticationDataSet1BindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,11 +216,13 @@
         private System.Windows.Forms.RichTextBox richTextBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.RichTextBox richTextBox2;
         private System.Windows.Forms.Label label5;
+        private AuthenticationDataSet1 authenticationDataSet1;
+        private System.Windows.Forms.BindingSource authenticationDataSet1BindingSource;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

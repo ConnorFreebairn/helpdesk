@@ -22,9 +22,8 @@ namespace Help_Desk
         {
             textBox1.Text = Properties.Settings.Default.ticketid;
             textBox2.Text = Properties.Settings.Default.affecteduser;
-            textBox3.Text = Properties.Settings.Default.status;
             richTextBox1.Text = Properties.Settings.Default.message;
-
+            comboBox1.Text = Properties.Settings.Default.status;
 
 
             SqlConnection conn = new SqlConnection(@"Data Source=CONNOR-PC\SQLEXPRESS;Initial Catalog=Authentication;Integrated Security=True;Pooling=False");
@@ -71,7 +70,7 @@ namespace Help_Desk
                     " WHERE ticketid=@ticketid", conn))
                 {
                     cmd.Parameters.AddWithValue("@ticketid", textBox1.Text);
-                    cmd.Parameters.AddWithValue("@status", textBox3.Text);
+                    cmd.Parameters.AddWithValue("@status", comboBox1.Text);
                     cmd.Parameters.AddWithValue("@comments", richTextBox2.Text);
                     cmd.ExecuteNonQuery();
 
@@ -91,7 +90,7 @@ namespace Help_Desk
                     " WHERE ticketid=@ticketid", conn))
                 {
                     cmd.Parameters.AddWithValue("@ticketid", textBox1.Text);
-                    cmd.Parameters.AddWithValue("@status", textBox3.Text);
+                    cmd.Parameters.AddWithValue("@status", comboBox1.Text);
                     cmd.Parameters.AddWithValue("@comments", richTextBox2.Text);
                     cmd.ExecuteNonQuery();
 
